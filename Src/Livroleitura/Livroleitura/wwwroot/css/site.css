@@ -1,0 +1,112 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#divBody {
+    display: flex;
+    flex-direction: row;
+}
+
+#divEsquerda {
+    width: 25%;
+    height: 650px;
+    padding: 40px 10px 10px 10px;
+    border-radius: 60px;
+    padding-left: 30px;
+    padding-top: 20px;  
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#divDireita {
+    width: 75%;
+    height: 650px;
+    border-radius: 60px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secoesBody {
+    background-color: yellow;
+    margin: 2px 2px 2px 2px;
+    
+}
+
+.itemCard {
+    background-color: green;
+    margin: 2px;
+    height: 10%;
+
+
+}
+
+#cabecalhoCard {
+    height: 10%;
+   
+}
+
+#textoCard {
+    height: 90%;
+  
+}
+
+#rodapeCard {
+    display: flex;
+   
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
