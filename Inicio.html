@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body class="Cacetaralho">
+    <div class="all">
+        <h1>BOLSONARO CALCULATOR</h1>
+        <img src="https://www.nicepng.com/png/full/377-3779696_bolsonaro-com-peixe-png.png" style="width: 200px;margin-left:500px;"/>
+        <br />
+        <div>
+            <label>valor 1</label>
+            <input style="margin-left: 14px;" id="txtvalor1" />
+        </div>
+
+        <br />
+        <div>
+            <label>valor2</label>
+            <input style="margin-left: 18px;" id="txtvalor2" />
+        </div>
+        <br />
+        <div>
+            <label>resultado</label>
+            <input id="textResul" />
+        </div>
+        <br />
+        <button id="btnSomar" onclick="Somando()">somar</button>
+        <button id="btnSubtrair" onclick="Subtrair()">subtrair</button>
+        <button id="btnmultiplicar" onclick="multiplicar()">multiplicar</button>
+        <button id="btnDividir" onclick="dividir()">dividir</button>
+        <button id="btnponeciar" onclick="potenciar()">potenciacao</button>
+    </div>
+   
+    <script>
+        function Somando() {
+            var v1 = document.getElementById("txtvalor1").value;
+            var v2 = document.getElementById("txtvalor2").value;
+            var resultado = parseInt(v1) + parseInt(v2);
+            document.getElementById("textResul").value = resultado;
+            console.log(resultado)
+        }
+        function Subtrair() {
+
+            var v1 = document.getElementById("txtvalor1").value;
+            var v2 = document.getElementById("txtvalor2").value;
+            var resultadoSubtrair = parseInt(v1) - parseInt(v2);
+            document.getElementById("textResul").value = resultadoSubtrair;
+            console.log(resultadoSubtrair)
+        }
+        function multiplicar() {
+
+            var v1 = document.getElementById("txtvalor1").value;
+            var v2 = document.getElementById("txtvalor2").value;
+            var resultadomultiplicar = parseInt(v1) * parseInt(v2);
+            document.getElementById("textResul").value = resultadomultiplicar;
+            console.log(resultadomultiplicar)
+        }
+
+        function dividir() {
+
+            var v1 = document.getElementById("txtvalor1").value;
+            var v2 = document.getElementById("txtvalor2").value;
+            var resultadodividir = parseInt(v1) / parseInt(v2);
+            document.getElementById("textResul").value = resultadodividir;
+            console.log(resultadodividir)
+
+        }
+        function potenciar() {
+            var v1 = document.getElementById("txtvalor1").value;
+            var v2 = document.getElementById("txtvalor2").value;
+            var resulp = parseInt(v1) ** parseInt(v2);
+            document.getElementById("textResul").value = resulp;
+            console.log(resultadodividir)
+
+        }
+
+    </script>
+    <style>
+        
+        .all {
+            margin: auto;
+            width: 50%;
+            border: 3px solid green;
+            padding: 10px;
+            background-color: yellow;
+        }
+
+    </style>
+</body>
+</html> 
